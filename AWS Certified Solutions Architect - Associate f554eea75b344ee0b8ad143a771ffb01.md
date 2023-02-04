@@ -1,11 +1,5 @@
 # AWS Certified Solutions Architect - Associate
 
-강의종류: AWS SAA
-복습: No
-유형: 이론정리
-자료: AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/AWS_solution_architect_associate_%25E1%2584%2580%25E1%2585%25A1%25E1%2586%25BC%25E1%2584%258B%25E1%2585%25B4_%25E1%2584%258C%25E1%2585%25A1%25E1%2584%2585%25E1%2585%25AD_v3.0.pdf
-작성일시: September 21, 2022 11:41 PM
-
 # AWS 시작하기
 
 1. AWS Budgets(예산)
@@ -13,22 +7,14 @@
     - 비용 또는 사용량이 사용자가 지정한 임계값을 초과 할 때 이메일 등으로 알림을 받거나 RDS/EC2 등의 서비스를 중지하는 작업을 연결할 수 있음
     - 비용할당 태그를 이용해 AWS 특정 리소스에 태그 값을 지정하여 태그에 대한 리소스 보고서만 생성 가능
     
-    ### 예산 실습
-    
-    ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled.png)
-    
-    ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled%201.png)
-    
-    ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled%202.png)
-    
+   
 2. AWS Cost Explorer(비용 탐색기)
     - AWS 서비스에 대한 비용 및 사용량을 분석하는 서비스
     - 서비스별, 계정별로 일별, 월별 사용량 및 비용을 확인하여 보고서를 생성 및 다운로드 할 수 있음
     - Cost Explorer는 그래프, 숫자를 통한 시각화 된 인터페이스를 제공
     
-    ### 비용탐색기 관련 실습
-    
-    ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled%203.png)
+ 
+   
     
 3. 글로벌 인프라
     
@@ -68,39 +54,7 @@
     ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled%207.png)
     
 
-### IAM 관련 실습
 
-1. 사용자 추가(액세스 유형 선택)
-    
-    ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled%208.png)
-    
-2. 권한 설정(그룹에 사용자 추가)
-    1. 사용자 추가
-    
-    ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled%209.png)
-    
-    b. 그룹에 사용자 추가
-    
-    ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled%2010.png)
-    
-    c. 그룹 생성 및 사용자 추가 완료 (.csv 파일 다운로드 및 이메일 전송 가능
-    
-    ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled%2011.png)
-    
-    ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled%2012.png)
-    
-3.  커스텀 URL 설정 후 콘솔에 재 로그인
-    
-    ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled%2013.png)
-    
-    [https://eunseo-aws.signin.aws.amazon.com/console](https://eunseo-aws.signin.aws.amazon.com/console) -> Custom URL
-    
-    ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled%2014.png)
-    
-    로그인 후 IAM User로 표시
-    
-    ![Untitled](AWS%20Certified%20Solutions%20Architect%20-%20Associate%20f554eea75b344ee0b8ad143a771ffb01/Untitled%2015.png)
-    
 - IAM - 정책
     - AWS 리소스에 대한 액세스 권한을 정의한 것
     - 사용자, 그룹, 역할에 정책을 연결하여 사용
